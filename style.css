@@ -1,0 +1,375 @@
+body{
+    background-color: #f9f9f9;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*-------------HEADER-------------- */
+
+#header{
+    position:relative;
+    background-color: #d94e44;
+    height: 60px;
+    width:102%;
+    top:-20px;
+    left:-15px;
+}
+
+#header h3{
+    font-size: 25px;
+    position:relative;
+    color:white;
+    top:15px;
+    left:42%;
+}
+
+#btn-submit{
+    position:relative;
+    background-color: #f6f4f4;
+    height: 60px;
+    float: left;
+    width:660px;
+    top:-20px;
+    left:-10px;
+}
+
+
+.header2 button{
+    width:100%;
+    height:100%;
+    background-color: white;
+    border-right: 1px solid #d6d4d4;
+    border-bottom: 1px solid #d6d4d4;
+}
+
+.header2 button:hover {
+    outline: none;
+}
+
+#drop-down{
+    position:relative;
+    background-color: white;
+    height: 58px;
+    width:633px;
+    float:right;
+    top:-20px;
+    left:-10px;
+    border:1px solid #d6d4d4;
+}
+
+#drop-down select{
+    text-align:center;
+    margin-top:10px;
+    margin-left:200px;
+
+    height:35px;
+    width:200px;
+}
+
+
+.header2 button:focus {
+    outline: none;
+}
+
+menu{
+    padding:30px;
+    left:50px;
+}
+
+/*-------------ABOUT-------------- */
+
+.about{
+    position:relative;
+    padding:20px;
+    left:220px;
+    width:700px;
+    background-color: #f6f4f4;
+    margin:30px;
+}
+
+.about section{
+    padding:20px;
+}
+
+.about input{
+    width:100%;
+    height:30px;
+}
+
+.about textarea{
+    width:100%;
+    height:100px;
+}
+
+.about-options section{
+    position:relative;
+    right:20px;
+    float:left;
+    padding:20px;
+}
+
+.about #about-title{
+
+    position:relative;
+    background-color: #d94e44;
+    width:106%;
+    height:0px;
+    bottom:40px;
+    right: 40px;
+}
+
+.about #about-title h3{
+position:relative;
+    bottom:30px;
+    color: white;
+}
+
+.about .about-options section{
+    padding-right :80px;
+}
+
+
+/*-------------INCREDIENTS-------------- */
+.incredients{
+    position:relative;
+    padding:20px;
+    left:220px;
+    width:700px;
+    background-color: #f6f4f4;
+    margin:30px;
+}
+
+.incredients #incredients-title{
+    position:relative;
+    background-color: #d94e44;
+    width:106%;
+    height: 40px;
+    bottom:40px;
+    right: 20px;
+
+}
+.incredients #incredients-title h3{
+    position:relative;
+    top:7px;
+    padding-left:20px;
+    color: white;
+}
+
+.incredients .incredients-inputs{
+    margin:10px;
+
+
+}
+
+.incredients .incredients-inputs select{
+    width:100px;
+    height:35px;
+}
+
+.incredients .incredients-inputs #incredients-qty{
+    width:50px;
+    height:30px;
+
+}
+
+.incredients .incredients-inputs h5{
+    float:right;
+    position:relative;
+    right:400px;
+    bottom:15px;
+
+}
+
+
+.incredients .incredients-inputs .incredients-inputs-btn {
+    float: right;
+}
+
+.incredients .incredients-inputs .incredients-inputs-btn input {
+    width:250px;
+    height:30px;
+}
+.incredients .incredients-inputs .incredients-inputs-btn button {
+    height:35px;
+    color:#d94e44;
+    border-radius:3px;
+    border:1px solid #d94e44;
+}
+
+
+
+    /*-------------STEPS-------------- */
+.steps{
+    position:relative;
+    padding:20px;
+    left:220px;
+    width:700px;
+    background-color: #f6f4f4;
+    margin:30px;
+}
+
+.steps #steps-title{
+    position:relative;
+    background-color: #d94e44;
+    width:106%;
+    height: 40px;
+    bottom:40px;
+    right: 20px;
+}
+
+.steps #steps-title h3{
+    position:relative;
+    top:7px;
+    padding-left:20px;
+    color: white;
+}
+.steps .steps-inputs{
+padding:20px;
+}
+
+.steps .steps-inputs textarea{
+    width:100%;
+    height:100px;
+    right:20px;
+}
+.steps .steps-inputs button{
+    background-color:white ;
+    width:101%;
+    height:35px ;
+    border-radius: 3px;
+    border:1px solid #d94e44;
+    color:#d94e44;
+}
+
+/*-------------FOOTER-------------- */
+ .btn-cancel-save{
+     position:relative;
+     left:280px;
+     width:740px;
+     background-color: #f6f4f4;
+     bottom:70px;
+ }
+
+ .btn-cancel-save button{
+     float:left;
+     width:50%;
+     height:35px ;
+     border-radius: 3px;
+     border: 1px solid #d94e44;
+ }
+
+ .btn-cancel-save #btn-save{
+     background-color: #d94e44;
+     color:white;
+ }
+
+.btn-cancel-save #btn-cancel{
+    background-color:white ;
+    color:#d94e44;
+}
+
+/*--Media Queries--*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    #header{
+
+        width:102%;
+
+    }
+
+    #btn-submit{
+        width:50%;
+    }
+
+    #drop-down{
+        width:49%;
+    }
+
+    #drop-down select{
+        margin-top:10px;
+        margin-left:50px;
+        width:40%;
+    }
+    .about{
+        position:relative;
+        width:50%;
+        right:300px;
+    }
+
+    .about .about-options select{
+        width:20%
+    }
+
+    .incredients{
+        width:50%;
+    }
+    .steps{
+        width:50%;
+    }
+    .btn-cancel-save{
+        width:50%;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    #header{
+
+        width:102%;
+
+    }
+
+    #btn-submit{
+        width:50%;
+    }
+
+    #drop-down{
+        width:49%;
+    }
+
+    #drop-down select{
+        margin-top:10px;
+        margin-left:80px;
+        width:40%;
+    }
+
+     body .about{
+
+        width:70%;
+
+    }
+
+    .incredients .incredients-inputs h5{
+        width:20px;
+
+    }
+
+    .incredients .incredients-inputs .incredients-inputs-btn button {
+        float:right;
+    }
+
+    .incredients .incredients-inputs   {
+        wisth:50%;
+}
+
+    .incredients .incredients-inputs .incredients-inputs-btn input {
+        bottom:20px;
+        width:40%;
+        float:right;
+    }
+
+    .steps{
+        width:70%;
+    }
+    .about .about-options section{
+        float:left;
+    }
+    .about .about-options {
+        float:right;
+
+    }
+    .about .about-options lable{
+        font-size: 10px;
+    }
+    .btn-cancel-save{
+        width:70%;
+    }
+}
